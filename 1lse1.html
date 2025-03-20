@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcule de la Moyenne et le Crédit <br> Première année Licence Sciences Economique<br> Premier semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule1lse1.php" method="post" id="form1lse1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+            </tr>
+            <tr>
+                <td>Principes d'économie</td>
+                <td><input type="number" id="pe_exam" name="pe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pe_td" name="pe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Principes de gestion</td>
+                <td><input type="number" id="pg_exam" name="pg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pg_td" name="pg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Comptabilité financière 1</td>
+                <td><input type="number" id="compta_exam" name="compta_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="compta_td" name="compta_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse</td>
+                <td><input type="number" id="anal_exam" name="anal_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="anal_td" name="anal_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Statistique descriptive et calculs des probabilités</td>
+                <td><input type="number" id="stat_exam" name="stat_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="stat_td" name="stat_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Français</td>
+                <td><input type="number" id="fran_exam" name="fran_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="fran_td" name="fran_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais</td>
+                <td><input type="number" id="ang_exam" name="ang_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ang_td" name="ang_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Produits Microsoft</td>
+                <td><input type="number" id="inf_exam" name="inf_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="inf_td" name="inf_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form1lse1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

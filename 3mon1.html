@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Monnaie, Finance, Banque, Assurance<br> Première semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3mon1.php" method="post" id="form3mon1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Initiation à l'économétrie</td>
+                <td><input type="number" id="eco_exam" name="eco_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eco_td" name="eco_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Économie de la banque et de l'assurance</td>
+                <td><input type="number" id="eba_exam" name="eba_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eba_td" name="eba_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Droit des institutions financières</td>
+                <td><input type="number" id="dif_exam" name="dif_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dif_td" name="dif_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Macroéconomie monétaire</td>
+                <td><input type="number" id="mm_exam" name="mm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mm_td" name="mm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Étude de cas dans la spécialité</td>
+                <td><input type="number" id="ecs_exam" name="ecs_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecs_td" name="ecs_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel</td>
+                <td><input type="number" id="dp_exam" name="dp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp_td" name="dp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Business English</td>
+                <td><input type="number" id="be_exam" name="be_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="be_td" name="be_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse Technique et Trading Boursier</td>
+                <td><input type="number" id="attb_exam" name="attb_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="attb_td" name="attb_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Gestion de trésorerie</td>
+                <td><input type="number" id="gt_exam" name="gt_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="gt_td" name="gt_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3mon1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

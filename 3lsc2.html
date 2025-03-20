@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Comptabilité <br> Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lsc2.php" method="post" id="form3lsc2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Comptabilité internationale: IFRS</td>
+                <td><input type="number" id="ifrs_exam" name="ifrs_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ifrs_td" name="ifrs_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Audit</td>
+                <td><input type="number" id="audit_exam" name="audit_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="audit_td" name="audit_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Décisions financières</td>
+                <td><input type="number" id="df_exam" name="df_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="df_td" name="df_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Projet de fin d'études (PFE)</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué à la comptabilité 2</td>
+                <td><input type="number" id="aac_exam" name="aac_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aac_td" name="aac_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Logiciel de comptabilité</td>
+                <td><input type="number" id="lc_exam" name="lc_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="lc_td" name="lc_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques d’analyse de la conjoncture</td>
+                <td><input type="number" id="tac_exam" name="tac_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tac_td" name="tac_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Contentieux et avantages fiscaux</td>
+                <td><input type="number" id="caf_exam" name="caf_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="caf_td" name="caf_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lsc2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css"> <!-- Importation du CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <!-- Section titre avec les classes d'origine -->
+    <div class="titre">
+    	<img src="isima.png" class="img">
+        Calcul de la Moyenne et le Crédit <br>
+        Troisième année Licence Business Intelligence<br> Premier semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <!-- Formulaire pour saisir les notes -->
+    <form action="calcule3lbi1.php" method="post" id="form3lbi1">
+        <table>
+            <!-- Titre du tableau -->
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+                <th>TP</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+
+            <!-- Lignes de données des matières -->
+            <tr>
+                <td>Techniques de prévision</td>
+                <td><input type="number" name="tp_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="tp_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Fondements de la théorie de décision</td>
+                <td><input type="number" name="ftd_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="ftd_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Introduction au Big Data et Cloud</td>
+                <td><input type="number" name="ibdc_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="ibdc_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Développement Mobile</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="dm_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="dm_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Gestion de la technologie de l’information</td>
+                <td><input type="number" name="gti_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="gti_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Fondamentaux de la sécurité IT</td>
+                <td><input type="number" name="fsi_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="fsi_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Langages de Programmation évolués – BI</td>
+                <td><input type="number" name="lpbi_exam" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="lpbi_ds1" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+            </tr>
+            <tr>
+                <td>Conception TB et scoring</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="ctbs_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="ctbs_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques d’aide à la décision</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="tad_td" min="0" max="20" step="0.01" required></td>
+                <td class="empty">-</td>
+                <td><input type="number" name="tad_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="tad_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>PSE – Politique et Stratégie d’Entreprise</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="pse_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="pse_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Gestion de Projet</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="gp_tp" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="gp_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="gp_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Psychology and sociology for online media applications</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td class="empty">-</td>
+                <td><input type="number" name="psoma_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="psoma_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lbi1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

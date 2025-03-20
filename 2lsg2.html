@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928" crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcule de la Moyenne et le Crédit <br>
+        Deuxième année Licence Sciences Gestion<br>
+        Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+    <form action="calcule2lsg2.php" method="post" id="form2lsg2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+            <tr>
+                <td>Fondamentaux de la GRH</td>
+                <td><input type="number" name="rh_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="rh_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Diagnostic Financier</td>
+                <td><input type="number" name="diag_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="diag_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Gestion de la production</td>
+                <td><input type="number" name="gp_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="gp_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Méthodologie d'Elaboration d'un rapport de stage</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="sta_ds1" step="0.01" min="0" max="20"></td>
+                <td><input type="number" name="sta_ds2" step="0.01" min="0" max="20"></td>
+            </tr>
+            <tr>
+                <td>Anglais</td>
+                <td><input type="number" name="ang_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="ang_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Développement personnel</td>
+                <td><input type="number" name="dev_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="dev_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Marchés de capitaux et instruments financiers</td>
+                <td><input type="number" name="marc_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="marc_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>E-Business</td>
+                <td><input type="number" name="bus_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="bus_td" step="0.01" min="0" max="20"></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form2lsg2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

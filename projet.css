@@ -1,0 +1,317 @@
+/* General Reset */
+body, h1, form, table, a, button , input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bg.jpg');
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.button-link {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin: 1.5% auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+.titre {
+    text-align: center;
+    font-size: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 90%;
+    max-width: 850px;
+    margin: 2% auto;
+}
+.titre img {
+    width: 50px;
+    vertical-align: middle;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+form {
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1rem;
+    opacity: 1;
+    background-color: black;
+    border-radius: 15px;
+}
+.title {
+    background-color: #5f9eda;
+    text-align: center;
+
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+th {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+a {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin: 1.5% auto;
+}
+
+a:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+button {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin: 1.5% auto;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.container3{
+    margin-left: 10% !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .titre {
+        font-size: 30px;
+        padding: 15px;
+        backdrop-filter: blur(80px);
+    }
+
+    .titre img {
+        width: 40px;
+    }
+
+    a {
+        font-size: 1rem;
+        padding: 10px;
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+        
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px;
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+        
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    input[type="number"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .titre {
+    	-webkit-backdrop-filter: blur(50px); /* For Safari on iOS */
+        font-size: 20px;
+        backdrop-filter: blur(50px);
+        
+    }
+
+    .titre img {
+        width: 35px;
+    }
+
+    a {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+	}
+    button {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin-left: 10% !important;
+        margin-top: 10% !important;
+	}
+    table {
+        font-size: 0.8rem;
+    }
+
+    form {
+        overflow-x: auto;
+    }
+
+    input[type="number"] {
+        padding: 5px;
+    }
+    .container{
+    	margin-top: 8% !important;
+    }
+}
+@media (min-width: 992px) {
+    .btn_1 {
+      font-size: 1.5rem; /* Increase font size for larger buttons */
+      padding: 15px 30px; /* Adjust padding for better appearance */
+      margin-top: 28%; /* Shift buttons downward */
+      width: 300px; /* Set a fixed width */
+      height: 100px; /* Set a fixed height */
+      display: inline-flex; /* Ensure alignment */
+      align-items: center; /* Center text vertically */
+      justify-content: center; /* Center text horizontally */
+    }
+    .btn_3 {/* Increase font size for larger buttons */
+        padding: 15px 30px; /* Adjust padding for better appearance */
+        margin-top: 28%; /* Shift buttons downward */
+        width: 300px; /* Set a fixed width */
+        height: 100px; /* Set a fixed height */
+        display: inline-flex; /* Ensure alignment */
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
+      }
+  }
+  @media (max-width: 480px) {
+    /* Center and adjust video size */
+    .video-container {
+        width: 100%; /* Full width of the screen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container video {
+        width: 90%; /* 90% of the screen width */
+        max-width: 300px; /* Limit maximum width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px; /* Optional: rounded corners */
+    }
+
+    /* Adjust buttons to center */
+    .container {
+        display: flex; /* Use flexbox for alignment */
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center buttons horizontally */
+    }
+
+    .btn_1 {
+        display: block; /* Ensure buttons take the full width */
+        width: 80%; /* Buttons occupy 80% of screen width */
+        max-width: 300px; /* Optional: limit button width */
+        margin: 10px 0; /* Vertical spacing between buttons */
+        font-size: 14px; /* Slightly smaller font size for phones */
+        padding: 10px; /* Comfortable padding for touch screens */
+        text-align: center; /* Ensure button text is centered */
+    }
+
+    /* Title adjustments (optional for mobile) */
+    .titre {
+        width: 95%; /* Title occupies 95% of the screen */
+        margin: 10px auto; /* Center title */
+    }
+}
+@media (min-width: 992px) {
+    .btn_2 {
+      line-height: 60px; /* Adjust based on your button height */
+    }
+  }
+  
+

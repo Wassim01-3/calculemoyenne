@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Finance<br> Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lfin2.php" method="post" id="form3lfin2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Ingénierie Financière et Montages Financiers</td>
+                <td><input type="number" id="ifm_exam" name="ifm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ifm_td" name="ifm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Politiques Financières de l’entreprise</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Contrôle de Gestion</td>
+                <td><input type="number" id="cg_exam" name="cg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="cg_td" name="cg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Projet de fin d'études</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais financier 2</td>
+                <td><input type="number" id="af_exam" name="af_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="af_td" name="af_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Introduction au logiciel R</td>
+                <td><input type="number" id="lr_exam" name="lr_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="lr_td" name="lr_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse technique et trading boursier</td>
+                <td><input type="number" id="at_exam" name="at_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="at_td" name="at_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques de prévision</td>
+                <td><input type="number" id="tp_exam" name="tp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tp_td" name="tp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lfin2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

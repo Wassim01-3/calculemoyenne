@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        <img src="isima.png" class="img">
+        Calcule de la Moyenne et le Crédit <br\>
+        <img src="1.jpg" class="img">
+    </div>
+    
+    <form action="calcule1lbc2.php" method="post" id="form1lbc2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>TD</th>
+                <th>TP</th>
+                <th>Examen</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+            <tr>
+                <td>Algorithmique et structure de données 2</td>
+                <td><input type="number" name="algo_td" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="algo_tp" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="algo_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Fondements de réseaux / Networks essentials</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="res_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="res_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Introduction aux systèmes d’information</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="si_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="si_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Logique mathématique</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="log_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="log_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Algèbre</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="gebr_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="gebr_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Le système d’information comptable</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="sic_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="sic_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Gestion financière</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="gf_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="gf_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Framework IHM</td>
+                <td>-</td>
+                <td><input type="number" name="ihm_tp" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td><input type="number" name="ihm_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="ihm_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Contrôle Interne</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="ci_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="ci_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Business Communication 2</td>
+                <td><input type="number" name="bus_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="bus_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="bus_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Techniques de Créativité</td>
+                <td><input type="number" name="cre_td" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="cre_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="cre_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form1lbc2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

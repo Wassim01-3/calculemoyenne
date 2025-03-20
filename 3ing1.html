@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Ingénierie Economique et Financière<br> Première semestre 
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3ing1.php" method="post" id="form3ing1"> 
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Initiation à l'Econométrie</td>
+                <td><input type="number" id="eco_exam" name="eco_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eco_td" name="eco_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques de prévision</td>
+                <td><input type="number" id="tp_exam" name="tp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tp_td" name="tp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques d'optimisation</td>
+                <td><input type="number" id="to_exam" name="to_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="to_td" name="to_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Recherches opérationnelles</td>
+                <td><input type="number" id="ro_exam" name="ro_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ro_td" name="ro_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Étude de cas dans la spécialité</td>
+                <td><input type="number" id="ecs_exam" name="ecs_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecs_td" name="ecs_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Business English</td>
+                <td><input type="number" id="be_exam" name="be_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="be_td" name="be_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel</td>
+                <td><input type="number" id="dp_exam" name="dp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp_td" name="dp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d'Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Fondements et outils de l'ingénierie économique</td>
+                <td><input type="number" id="fo_exam" name="fo_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="fo_td" name="fo_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Outils et logiciels statistiques</td>
+                <td><input type="number" id="ols_exam" name="ols_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ols_td" name="ols_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3ing1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

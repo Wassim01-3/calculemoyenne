@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Marketing <br> Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lmk2.php" method="post" id="form3lmk2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Stratégies de distribution</td>
+                <td><input type="number" id="sd_exam" name="sd_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="sd_td" name="sd_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Communication marketing</td>
+                <td><input type="number" id="cm_exam" name="cm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="cm_td" name="cm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse des données marketing</td>
+                <td><input type="number" id="adm_exam" name="adm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="adm_td" name="adm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Projet de fin d'études (PFE)</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué au marketing 2</td>
+                <td><input type="number" id="aam_exam" name="aam_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aam_td" name="aam_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Outils et logiciels appliqués au marketing</td>
+                <td><input type="number" id="olam_exam" name="olam_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="olam_td" name="olam_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Marchandising</td>
+                <td><input type="number" id="mar_exam" name="mar_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mar_td" name="mar_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Webmarketing</td>
+                <td><input type="number" id="wm_exam" name="wm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="wm_td" name="wm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lmk2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

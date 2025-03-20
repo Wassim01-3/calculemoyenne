@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Marketing<br> Première semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lmk1.php" method="post" id="form3lmk1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Gestion des prix et des produits</td>
+                <td><input type="number" id="gpp_exam" name="gpp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="gpp_td" name="gpp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Stratégie marketing</td>
+                <td><input type="number" id="sm_exam" name="sm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="sm_td" name="sm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Recherche marketing</td>
+                <td><input type="number" id="rm_exam" name="rm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="rm_td" name="rm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse du comportement du consommateur</td>
+                <td><input type="number" id="acc_exam" name="acc_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="acc_td" name="acc_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Études de cas en marketing</td>
+                <td><input type="number" id="ecm_exam" name="ecm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecm_td" name="ecm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué au marketing 1</td>
+                <td><input type="number" id="aam_exam" name="aam_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aam_td" name="aam_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel 2</td>
+                <td><input type="number" id="dp2_exam" name="dp2_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp2_td" name="dp2_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Marketing international</td>
+                <td><input type="number" id="mi_exam" name="mi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mi_td" name="mi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Théorie de la décision</td>
+                <td><input type="number" id="td_exam" name="td_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="td_td" name="td_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lmk1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

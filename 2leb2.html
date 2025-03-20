@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        <img src="isima.png" class="img">
+        Calcule de la Moyenne et le Crédit <br>
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule2leb2.php" method="post" id="form2leb2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+                <th>TP</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+
+            <!-- SGBD / D.B.M.S -->
+            <tr>
+                <td>SGBD / D.B.M.S</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="bd_tp" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="bd_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="bd_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Programmation Web 2 -->
+            <tr>
+                <td>Programmation Web 2</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="prog_web_tp" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="prog_web_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="prog_web_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Programmation OO avancée -->
+            <tr>
+                <td>Programmation OO avancée</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="poo_tp" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="poo_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="poo_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Développement Durable -->
+            <tr>
+                <td>Développement Durable</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="dd_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="dd_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Entrepreneuriat -->
+            <tr>
+                <td>Entrepreneuriat</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="ent_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="ent_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Business Communication -->
+            <tr>
+                <td>Business Communication</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="bc_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="bc_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Développement Personnel -->
+            <tr>
+                <td>Développement Personnel</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="dp_ds1" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="dp_ds2" step="0.01" min="0" max="20" required></td>
+            </tr>
+
+            <!-- Recherche Opérationnelle -->
+            <tr>
+                <td>Recherche Opérationnelle</td>
+                <td><input type="number" name="rech_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="rech_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+            <!-- IT Management -->
+            <tr>
+                <td>IT Management</td>
+                <td><input type="number" name="it_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="it_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+            <!-- Conception TB et Scoring -->
+            <tr>
+                <td>Conception TB et Scoring</td>
+                <td><input type="number" name="conc_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="conc_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+            <!-- Data Warehouse -->
+            <tr>
+                <td>Data Warehouse</td>
+                <td><input type="number" name="dw_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="dw_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+            <!-- Génie logiciel et outils d’AGL -->
+            <tr>
+                <td>Génie logiciel et outils d’AGL</td>
+                <td><input type="number" name="agl_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="agl_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+            <!-- E-Customer Relationship Management -->
+            <tr>
+                <td>E-Customer Relationship Management</td>
+                <td><input type="number" name="crm_exam" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="crm_ds1" step="0.01" min="0" max="20" required></td>
+                <td>-</td>
+            </tr>
+
+        </table>
+        <a href="#" onclick="document.getElementById('form2leb2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcule de la Moyenne et le Crédit <br> Première année Licence Sciences Gestion<br> Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+    
+    <form action="calcule1lsg2.php" method="post" id="form1lsg2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+            </tr>
+            <tr>
+                <td>Principes de gestion</td>
+                <td><input type="number" name="pg_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="pg_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Comptabilité financière 2</td>
+                <td><input type="number" name="compta_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="compta_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Mathématique 2</td>
+                <td><input type="number" name="math_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="math_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Statistique descriptive et calculs de probabilité</td>
+                <td><input type="number" name="stat_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="stat_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Macroéconomie</td>
+                <td><input type="number" name="mac_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="mac_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Droit des sociétés commerciales</td>
+                <td><input type="number" name="dr_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="dr_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Anglais 2</td>
+                <td><input type="number" name="ang_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="ang_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+            <tr>
+                <td>Internet et web</td>
+                <td><input type="number" name="info_exam" step="0.01" min="0" max="20" required></td>
+                <td><input type="number" name="info_td" step="0.01" min="0" max="20" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form1lsg2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

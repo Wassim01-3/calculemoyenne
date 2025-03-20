@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css"> <!-- Importation du CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <!-- Section titre -->
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br>
+        Deuxième année Licence Sciences Économique<br> Premier semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <!-- Formulaire pour saisir les notes -->
+    <form action="calcule2lse1.php" method="post" id="form2lse1">
+        <table>
+            <!-- Titre du tableau -->
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+
+            <!-- Lignes de données des matières -->
+            <tr>
+                <td>Les métiers de l'économiste</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="met_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="met_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Conférences carrières</td>
+                <td>-</td>
+                <td><input type="number" name="cc_td" min="0" max="20" step="0.01"></td>
+                <td><input type="number" name="cc_ds1" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="cc_ds2" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Microéconomie 2</td>
+                <td><input type="number" name="mic_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="mic_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Macroeconomie 2</td>
+                <td><input type="number" name="mac_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="mac_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Histoire des faits et de la pensée économique</td>
+                <td><input type="number" name="hist_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="hist_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Français 3</td>
+                <td><input type="number" name="fran_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="fran_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Anglais 3</td>
+                <td><input type="number" name="ang_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="ang_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Culture entrepreneuriale</td>
+                <td><input type="number" name="cul_exam" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td><input type="number" name="cul_ds1" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Commerce et marchés extérieurs</td>
+                <td><input type="number" name="comm_exam" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td><input type="number" name="comm_ds1" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Statistique appliquée</td>
+                <td><input type="number" name="stat_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" name="stat_td" min="0" max="20" step="0.01" required></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form2lse1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

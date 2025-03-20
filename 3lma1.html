@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Management<br> Première semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lma1.php" method="post" id="form3lma1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Théorie des organisations</td>
+                <td><input type="number" id="to_exam" name="to_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="to_td" name="to_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyses quantitatives et qualitatives</td>
+                <td><input type="number" id="aq_exam" name="aq_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aq_td" name="aq_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Management de projet</td>
+                <td><input type="number" id="mp_exam" name="mp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mp_td" name="mp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Management de la qualité et certification</td>
+                <td><input type="number" id="mq_exam" name="mq_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mq_td" name="mq_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Etude de cas en management</td>
+                <td><input type="number" id="ecm_exam" name="ecm_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecm_td" name="ecm_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué au management 1</td>
+                <td><input type="number" id="aam1_exam" name="aam1_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aam1_td" name="aam1_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel 2</td>
+                <td><input type="number" id="dp2_exam" name="dp2_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp2_td" name="dp2_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Management International</td>
+                <td><input type="number" id="mi_exam" name="mi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mi_td" name="mi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Méthodes Scientifiques de Gestion</td>
+                <td><input type="number" id="msg_exam" name="msg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="msg_td" name="msg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lma1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

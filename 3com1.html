@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Commerce et Finance Internationale<br> Premier semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3com1.php" method="post" id="form3com1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Initiation à l'économétrie</td>
+                <td><input type="number" id="eco_exam" name="eco_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eco_td" name="eco_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Finance internationale</td>
+                <td><input type="number" id="fi_exam" name="fi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="fi_td" name="fi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Droit du commerce international</td>
+                <td><input type="number" id="dci_exam" name="dci_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dci_td" name="dci_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Politiques commerciales</td>
+                <td><input type="number" id="pc_exam" name="pc_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pc_td" name="pc_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Étude de cas dans la spécialité</td>
+                <td><input type="number" id="ecs_exam" name="ecs_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecs_td" name="ecs_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Business English</td>
+                <td><input type="number" id="be_exam" name="be_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="be_td" name="be_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel</td>
+                <td><input type="number" id="dp_exam" name="dp_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp_td" name="dp_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Financement et sécurisation des opérations Import et Export</td>
+                <td><input type="number" id="fso_exam" name="fso_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="fso_td" name="fso_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Technique du commerce international</td>
+                <td><input type="number" id="tci_exam" name="tci_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tci_td" name="tci_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3com1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Comptabilité<br> Première semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lsc1.php" method="post" id="form3lsc1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Comptabilité avancée</td>
+                <td><input type="number" id="ca_exam" name="ca_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ca_td" name="ca_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Cadre conceptuel et présentation des états financiers</td>
+                <td><input type="number" id="ccpef_exam" name="ccpef_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ccpef_td" name="ccpef_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Contrôle de gestion</td>
+                <td><input type="number" id="cg_exam" name="cg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="cg_td" name="cg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Étude de cas en comptabilité</td>
+                <td><input type="number" id="ecc_exam" name="ecc_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ecc_td" name="ecc_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué à la comptabilité 1</td>
+                <td><input type="number" id="aac1_exam" name="aac1_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aac1_td" name="aac1_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Développement personnel 2</td>
+                <td><input type="number" id="dp2_exam" name="dp2_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="dp2_td" name="dp2_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Comptabilité sectorielle</td>
+                <td><input type="number" id="cs_exam" name="cs_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="cs_td" name="cs_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Organisation comptable et systèmes d’information</td>
+                <td><input type="number" id="ocsi_exam" name="ocsi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ocsi_td" name="ocsi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lsc1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

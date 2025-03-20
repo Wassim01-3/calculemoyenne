@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4E5P1D8L8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F4E5P1D8L8');
+</script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        <img src="isima.png" class="img">
+        Calcule de la Moyenne et le Crédit <br>
+        <img src="1.jpg" class="img">
+    </div>
+    
+    <form action="calcule1lbc1.php" method="post" id="form1lbc1">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>TD</th>
+                <th>TP</th>
+                <th>DS1</th>
+                <th>DS2</th>
+            </tr>
+            <tr>
+                <td>Algorithmique et structure de données 1</td>
+                <td><input type="number" name="algo_exam" step="0.01" max="20" required></td>
+                <td><input type="number" name="algo_td" step="0.01" max="20"></td>
+                <td><input type="number" name="algo_tp" step="0.01" max="20"></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Systèmes d’exploitation</td>
+                <td><input type="number" name="exp_exam" step="0.01" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="exp_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Systèmes logiques et architecture des ordinateurs</td>
+                <td><input type="number" name="log_exam" step="0.01" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="log_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Analyse</td>
+                <td><input type="number" name="anal_exam" step="0.01" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="anal_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Statistiques et Probabilité</td>
+                <td><input type="number" name="stat_exam" step="0.01" max="20" required></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="stat_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Principes de Gestion</td>
+                <td><input type="number" name="pg_exam" step="0.01" max="20"></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="pg_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Comptabilité générale</td>
+                <td><input type="number" name="compta_exam" step="0.01" max="20"></td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="compta_ds1" step="0.01" max="20"></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Développement IHM</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="dev_tp" step="0.01" max="20"></td>
+                <td><input type="number" name="dev_ds1" step="0.01" max="20"></td>
+                <td><input type="number" name="dev_ds2" step="0.01" max="20"></td>
+            </tr>
+            <tr>
+                <td>Organisation de l’Entreprise</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="org_ds1" step="0.01" max="20"></td>
+                <td><input type="number" name="org_ds2" step="0.01" max="20"></td>
+            </tr>
+            <tr>
+                <td>Compétences Numériques</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="num_ds1" step="0.01" max="20"></td>
+                <td><input type="number" name="num_ds2" step="0.01" max="20"></td>
+            </tr>
+            <tr>
+                <td>Business Communication</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="bus_ds1" step="0.01" max="20"></td>
+                <td><input type="number" name="bus_ds2" step="0.01" max="20"></td>
+            </tr>
+            <tr>
+                <td>Culture d’entreprise</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="number" name="eco_ds1" step="0.01" max="20"></td>
+                <td><input type="number" name="eco_ds2" step="0.01" max="20"></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form1lbc1').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

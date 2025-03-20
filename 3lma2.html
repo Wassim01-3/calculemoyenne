@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Management<br> Deuxième semestre
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3lma2.php" method="post" id="form3lma2">
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Management de l'innovation et entrepreneuriat</td>
+                <td><input type="number" id="mi_exam" name="mi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mi_td" name="mi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Management de la transformation digitale et systèmes d'information</td>
+                <td><input type="number" id="mtdsi_exam" name="mtdsi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mtdsi_td" name="mtdsi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Management stratégique</td>
+                <td><input type="number" id="ms_exam" name="ms_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="ms_td" name="ms_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Contrôle de gestion</td>
+                <td><input type="number" id="cg_exam" name="cg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="cg_td" name="cg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Projet de fin d'études (PFE)</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Anglais appliqué au management 2</td>
+                <td><input type="number" id="aam2_exam" name="aam2_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aam2_td" name="aam2_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Gestion de projet assisté par ordinateurs</td>
+                <td><input type="number" id="gpa_exam" name="gpa_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="gpa_td" name="gpa_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Business Game</td>
+                <td><input type="number" id="bg_exam" name="bg_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="bg_td" name="bg_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques d’aide à la décision</td>
+                <td><input type="number" id="tad_exam" name="tad_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tad_td" name="tad_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3lma2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>

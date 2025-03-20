@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5006802001974928"
+     crossorigin="anonymous"></script>
+    <title>Calcul des Moyennes</title>
+</head>
+<body>
+    <div class="titre">
+        Calcul de la Moyenne et le Crédit <br> Troisième année Monnaie, Finance, Banque, Assurance<br> Deuxième semestre 
+        <img src="1.jpg" class="img">
+    </div>
+
+    <form action="calcule3mon2.php" method="post" id="form3mon2"> 
+        <table>
+            <tr class="title">
+                <th>Matière</th>
+                <th>Examen</th>
+                <th>DS</th> 
+            </tr>
+            <tr>
+                <td>Enquête et sondage</td>
+                <td><input type="number" id="es_exam" name="es_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="es_td" name="es_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Techniques financières actuarielles</td>
+                <td><input type="number" id="tfa_exam" name="tfa_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="tfa_td" name="tfa_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Finance internationale</td>
+                <td><input type="number" id="fi_exam" name="fi_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="fi_td" name="fi_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Élaboration et validation du PFE</td>
+                <td><input type="number" id="pfe_exam" name="pfe_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="pfe_td" name="pfe_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Business English</td>
+                <td><input type="number" id="be_exam" name="be_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="be_td" name="be_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Analyse et évaluation des projets</td>
+                <td><input type="number" id="aep_exam" name="aep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="aep_td" name="aep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Gestion des risques bancaires</td>
+                <td><input type="number" id="grb_exam" name="grb_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="grb_td" name="grb_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Marketing des produits bancaires et financiers</td>
+                <td><input type="number" id="mpbf_exam" name="mpbf_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="mpbf_td" name="mpbf_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td>Entreprise d’Entrainement Pédagogique</td>
+                <td><input type="number" id="eep_exam" name="eep_exam" min="0" max="20" step="0.01" required></td>
+                <td><input type="number" id="eep_td" name="eep_td" min="0" max="20" step="0.01" required></td>
+            </tr>
+        </table>
+        <a href="#" onclick="document.getElementById('form3mon2').submit(); return false;" class="button-link">Calculer la moyenne</a>
+    </form>
+</body>
+</html>
